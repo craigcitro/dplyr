@@ -1,6 +1,8 @@
 language: r
 services: PostgreSQL
 
+r_packages:
+  - testthat
 r_binary_packages:
   - ggplot2
   - RSQLite
